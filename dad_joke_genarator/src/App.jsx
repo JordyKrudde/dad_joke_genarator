@@ -34,7 +34,9 @@ function App() {
   }
 
   return (
-    <JokeGenarator joke={joke} nextJoke={nextJoke}/>
+    <>
+      <JokeGenarator joke={joke} nextJoke={nextJoke} />
+    </>
   )
 }
 
